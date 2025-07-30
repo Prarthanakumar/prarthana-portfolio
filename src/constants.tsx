@@ -124,9 +124,18 @@ export const experiences = [
       desc: "I completed my class 10 education from Ryan International School, Navi Mumbai, under the CBSE board.",
       degree: "CBSE(X)",
     },];
-    export const projects = [
+    export interface Project {
+  id: string;
+  title: string;
+  description: string;
+  image: string;
+  tags: string[];
+  github: string;
+  webapp: string;
+}
+    export const projects: Project[] = [
     {
-      id: 0,
+      id: "0",
       title: "Todo App",
       description:
         "A simple and responsive ToDo app built with React, Tailwind CSS, and Supabase for real-time task management.",

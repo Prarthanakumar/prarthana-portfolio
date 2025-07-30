@@ -1,10 +1,11 @@
-import React, { useState } from "react";
-import { projects } from "../../constants";
+import  { useState } from "react";
+import type { Project } from "../../constants.ts"; // importing Project type
+import {projects} from "../../constants.ts"
 
 const Work = () => {
-  const [selectedProject, setSelectedProject] = useState(null);
+  const [selectedProject, setSelectedProject] = useState<Project | null>(null);
 
-  const handleOpenModal = (project) => {
+  const handleOpenModal = (project: Project) => {
     setSelectedProject(project);
   };
 

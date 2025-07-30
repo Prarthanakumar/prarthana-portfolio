@@ -12,10 +12,8 @@ import figmaLogo from './assets/tech_logo/figma.png';
 import cLogo from './assets/tech_logo/c.png';
 import cppLogo from './assets/tech_logo/cpp.png';
 import reactjsLogo from './assets/tech_logo/reactjs.png';
-import logo from './assets/company_logo/webverse_logo.png';
 
-
-import webverseLogo from './assets/company_logo/webverse_logo.png';
+import webverseLogo from './assets/company_logo/Webverse_logo.png';
 import agcLogo from './assets/company_logo/agc_logo.png';
 
 import glaLogo from './assets/education_logo/gla_logo.png';
